@@ -1,0 +1,16 @@
+JAVASCRIPT
+var file_src = "https://c1acr246.caspio.com/dp/ca6b7000dfc8868f767d4059b778";
+
+$('#create').click(function(){
+    alert('Button clicked now create an iframe !');
+    $('<iframe>')                      // Creates the element
+    .attr('src',file_src) // Sets the attribute spry:region="myDs"
+    .attr('height',500)
+    .attr('width',500)
+    .appendTo('#iframe_div');
+ });
+
+HTML
+<input type="button" id="create" value="Create Iframe">
+<div id="iframe_div">
+</div>

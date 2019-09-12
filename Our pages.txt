@@ -1,0 +1,45 @@
+Our Pages // feel free to add if you want more...
+
+All Users	:- Home
+			 - Digs Life Style 
+			 - Contact Us (Privacy and Terms && Help and Support)
+			 - Help (FAQ)
+			 - About Us
+			 - Login/Sign up
+			 - Search digs (show ratings and reviews)
+			 - Rate digs >> login >> Rate digs (Tenant)
+		
+Tenant		: Top Navigation
+			 - Home
+			 - Help (FAQ)
+			 - Logout
+			 - Rate Digs
+			 - Update Profile
+			 - Manage Digs Listings
+			: Bottom Navigation
+			 - Contact Us (Privacy and Terms && Help and Support)
+			 - Digs Life Style
+			 - About Us
+			: 
+			 - Search Digs
+
+Agent		:- Home
+			 - Digs Life Style 
+			 - Contact Us (Privacy and Terms && Help and Support)
+			 - Help (FAQ)
+			 - About Us
+			 - Logout
+			 - Search Digs
+			 - Dashboard (Updates/Messages)
+			 - Add Digs
+			 - Update Digs Listings
+
+Admin		:- Home
+			 - Digs Life Style 
+			 - Contact Us (Privacy and Terms && Help and Support (editable))
+			 - Help (FAQ)
+			 - About Us
+			 - Search Digs
+			 - Manage Agents
+			 - Manage Tenants
+			 - Manage Reviews

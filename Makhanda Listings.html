@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Styling.css">
+    <title>Listings</title>
+</head>
+<body class="StandardBackground">
+
+    <br>
+    <section id="TopSection">
+        <header>
+            <section id="NavigationPanel">
+                <nav>
+                    <ul>
+                        <li class="NavigationLinks"> 
+                        <a href="Home.html">Home</a> 
+                        </li>
+                        <li class="NavigationLinks"> 
+                        <a href="The digs lifestyle.html">The digs lifestyle</a> 
+                        </li>
+                        <li class="NavigationLinks"> 
+                        <a href="Frequently asked questions.html">Frequently Asked Questions</a>
+                        </li>
+                        <li class="NavigationLinks"> 
+                        <a href="About_Us.html">About us</a> 
+                        </li>
+                        <li class="NavigationLinks"> 
+                        <a href="Contact Us.html">Contact us</a> 
+                        </li>
+                        <li id="LoginButton" class="NavigationLinks"> 
+                        <a href="tenant_login.html">Log In/Sign Up Tenant</a> 
+                        </li>
+                        <li id="SignUpButton" class="NavigationLinks"> 
+                        <a href="Agent_login.html">Log In/Sign Up Agent</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+    </section>
+
+    <h2 class="Writing">Hello, welcome to the our listings</h2>
+
+    <!--The following code depicts one listing container-->
+    
+    <section id="Listing1">
+        <!--This is the slideshow of images for the digs listed-->
+        <div id="Slideshow1">
+            <img class="mySlides" src="DigsImage1.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage2.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage3.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage4.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage5.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage6.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage7.jpg" width="475px" height="400px">
+            <img class="mySlides" src="DigsImage8.jpg" width="475px" height="400px">
+
+            <button class="w3-button" onclick="plusDivs(-1)" id="PreviousButton">Previous</button>
+            <button class="w3-button" onclick="plusDivs(+1)" id="NextButton">Next</button>
+        
+
+            <script>
+                var slideIndex=1;
+                showDivs(slideIndex);
+
+                function plusDivs(n)
+                {
+                    showDivs(slideIndex+=n);
+                }
+
+                function showDivs(n)
+                {
+                    var i;
+                    var x=document.getElementsByClassName("mySlides");
+
+                    if(n>x.length)
+                    {
+                        slideIndex=1
+                    }
+
+                    if(n<1)
+                    {
+                        slideIndex=x.length
+                    };
+
+                    for(i=0; i<x.length;i++)
+                    {
+                        x[i].style.display="none";
+                    }
+                    x[slideIndex-1].style.display="block";
+                }
+            </script>
+        </div>
+
+        <br>
+
+        <!--This is the information regarding the digs listed-->
+        <div>
+            <a href="@" class="ListingAnchor">Backyard cottage</a> <br>
+            <a href="@" class="ListingAnchor"> 9 Hillsview Avenue </a>
+            <p class="Writing">Lovely Studio Apartment In Bruma for rental in safe complex<br>
+
+                    All open plan with modern kitchen<br> 
+                    Modern bathroom with shower/bath combination<br> 
+                    Build in wardrobes<br>  
+                    1 x Parking space <br> 
+                    24/7 Security <br> 
+                    Pre-paid Electricity <br> 
+                    Unfurnished studio <br> 
+                    No facility for washing machine inside the apartment but a laundry on two floors.
+                
+            </p>
+            <ul class="Writing">
+                <li class="ListingCriteria">1 Bedroom</li>
+                <li class="ListingCriteria">1 Bathroom</li>
+                <li class="ListingCriteria">Small kitched</li>
+                <li class="ListingCriteria">Small laundry</li>
+            </ul>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!--This is the pricing of the listed digs and the rating-->
+        <div>
+            <p class="Writing">R2500</p>
+            <!--Code borrowed from W3Schools-->
+            <!---link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span-->
+
+            <!--Code borrowed from Codepen.io-->
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5">
+                <label for="star5" title="text"></label>
+                <input type="radio" id="star4" name="rate" value="4">
+                <label for="star4" title="text"></label>
+                <input type="radio" id="star3" name="rate" value="3">
+                <label for="star3" title="text"></label>
+                <input type="radio" id="star2" name="rate" value="2">
+                <label for="star2" title="text"></label>
+                <input type="radio" id="star1" name="rate" value="1">
+                <label for="star1" title="text"></label>
+            </div>
+        </div>
+
+        <div id="Listing1Locater">
+
+        </div>
+    </section>
+
+    <!--The following code depicts the filtering options for the listings-->
+    <!---section id="FilterForm">
+        <form>
+                <h3 class="Writing">Filter search</h4>
+                <br>
+                <p class="Writing">Filter by Price</p>
+                <input type="radio" name="Bracket1" value="R0-R1999"> R0-R1999 <br>
+                <input type="radio" name="Bracket2" value="R2000-R2999"> R2000-R2999 <br>
+                <input type="radio" name="Bracket3" value="R3000-R3999"> R3000-R3999 <br>
+                <input type="radio" name="Bracket4" value="R4000-R4999"> R4000-R4999 <br>
+                <input type="radio" name="Bracket5" value=">R5000"> R5000 and above <br>
+                <br>
+                <p class="Writing">Filter by accomodation type</p>
+                <input type="radio" name="Type1" value="Private Room"> Private Room <br>
+                <input type="radio" name="Type2" value="Shared Room"> Shared Room <br>
+                <input type="radio" name="Type3" value="Entire Place"> Entire Place <br>
+                <br>
+                <p class="Writing">Filter by living arrangement</p>
+                <input type="radio" name="House" value="Multi-bedroom house"> Multi-bedroom house <br>
+                <input type="radio" name="Apartment" value="Multi-bedroom apartment"> Multi-bedroom apartment <br>
+                <input type="radio" name="Cottage" value="Multi-bedroom cottage"> Multi-bedroom cottage <br>
+        </form>
+    </section-->
+
+    <br>
+    <!--The following code is the closing remark of the page>
+    <footer id="ClosingRemark" class="Special">
+        <p>Oppidan Life, the best website for all things digs!</p>
+        <p>Brought to you by JavaSquad &copy; 2019</p>
+    </footer-->
+</body>
+</html>

@@ -1,0 +1,569 @@
+/*Below is the styling for the header section*/
+/*<Header>*/
+#TopSection
+{
+    border-style: solid;
+    border-color:black;
+    width: 100%;
+    text-align: center;
+    /*background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;*/
+}
+/*</Header>*/
+
+/*Below is the styling of all the writing on the web pages*/
+/*<Text appearance>*/
+.Writing
+{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+}
+/*</Text appearance>*/
+
+/*Below is the general styling of the body*/
+/*<body>*/
+#HomePage
+{
+	background-color: gray;
+    background-image: url("Banner\ Image\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1024px;
+    margin: auto;
+}
+
+.StandardBackground
+{
+    background-image: url("Background2.jpeg");
+    text-align: center;
+}
+/*</body>*/
+
+/*Below is the styling of the main navigation strip*/
+/*<Navigation strip>*/
+.NavigationLinks
+{
+    display: inline;
+}
+
+li a{
+    color: black;
+    padding: 10px 10px 10px 10px;   
+}
+
+#NavigationPanel
+{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+li a:hover{
+    background-color:#C2B9B0;
+}
+/*</Navigation strip>*/
+
+/*Below is the styling of the team photo*/
+/*<Team photo>*/
+#TeamPhoto
+{
+text-align: center;
+border-style: solid;
+padding: 0px 0px 10px 0px;
+}
+/*</Team photo>*/
+
+/*Below is the styling for the information on the project manager*/
+/*<Project Manager>*/
+#ClementineMolema
+{
+  border-style: solid; 
+  /*margin: auto;*/
+  /*float: left;*/
+}
+
+#PhotoOfTheProjectManager
+{
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+#ProjectManagerHeading
+{
+    padding: 0px 0px 0px 10px;
+}
+
+#ContactNumber
+{
+    color: #7E685A;
+}
+/*</Project Manager>*/
+
+/*Below is the styling for the table's hosting the team's contact details*/
+/*<Table details>*/
+table, th, td
+{
+    border: 1px solid black;
+}
+/*</Table details>*/
+
+/*Below is the styling for the information on the business analyst*/
+/*<Business Analyst>*/
+#AndileNyuswa
+{
+  border-style: solid; 
+  padding: 0px 0px 0px 10px;
+}
+
+#PhotoOfTheBusinessAnalyst
+{
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#ContactNumber1
+{
+    color: #7E685A;
+}
+/*</Business Analyst>*/
+
+/*Below is the styling for the information on the chief programmer*/
+/*<Chief programmer>*/
+#LubabaloBuwa
+{
+  border-style: solid; 
+  padding: 0px 0px 20px 0px;
+}
+
+#PhotoOfTheSoftwareDeveloper
+{
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+#SoftwareDeveloperHeading
+{
+    padding: 0px 0px 0px 10px;
+}
+
+#ContactNumber2
+{
+    color: #7E685A;
+}
+/*</Chief programmer>*/
+
+/*Below is the styling for the information on the user interface designer*/
+/*<Interface designer>*/
+#ThaboSekgotho
+{
+  border-style: solid; 
+  padding: 0px 0px 0px 10px;
+}
+
+#PhotoOfTheUserExperienceDesigner
+{
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#ContactNumber3
+{
+    color: #7E685A;
+}
+/*</Interface designer>*/
+
+/*Below is the styling for the welcoming messages on the home page*/
+/*<Welcoming Message>*/
+#WelcomingMessage
+{
+    text-align: center;
+}
+/*</Welcoming Message>*/
+
+/*Below is the styling for the digs locations*/
+/*<Locations>*/
+#Joburg
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /*background-image: url("Joburg.jpg");*/
+    /*background-repeat: no-repeat;
+    background-size: 335px 250px;
+    color: white;*/
+    background: transparent;
+}
+
+#input_form
+{
+	/*width: 335px;
+    height: 250px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    background: transparent;
+	*/
+
+}
+
+#KZN
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+#Bloemfontein
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    float: right;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+#Makhanda
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+#PE
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+#CapeTown
+{
+    width: 335px;
+    height: 250px;
+    font-size: 50px;
+    float: right;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.Hover:hover
+{
+    border-color: black;
+}
+/*</Locations>
+
+/*Below is the styling for the hidden anchors in the home page*/
+/*<anchors>*/
+.LocationAnchors
+{
+    text-decoration: none;
+    color: black;
+}
+/*</anchors>*/
+
+/*Below us the styling for the filter form on the roommate page*/
+/*<Filter Form>*/
+#FilterForm
+{
+    width: 300px;
+    height: 925px;
+    float: right;
+    border-style: solid;
+    border-color:black;
+    padding: 0px 0px 0px 10px;
+    margin-left:10px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+/*</Filter Form*/
+
+/*Below is the styling for the registered users seeking roommates*/
+/*<Roommates>*/
+#ImageContainer0
+{
+    border-style: solid;
+    border-color: black;
+    width: 325px;
+    height: 450px;
+    text-align: center;
+    float: left;
+}
+
+#ImageContainer1
+{
+    width: 325px;
+    height: 450px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 340px;
+    margin-right: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#ImageContainer2
+{
+    border-style: solid;
+    border-color: black;
+    width: 325px;
+    height: 450px;
+    text-align: center;
+    margin-left:680px;
+    margin-top: -556px;
+}
+
+#ImageContainer3
+{
+    border-style: solid;
+    border-color: black;
+    width: 325px;
+    height: 450px;
+    text-align: center;
+    float: left;
+}
+
+#ImageContainer4
+{
+    width: 325px;
+    height: 450px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 340px;
+    margin-right: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#ImageContainer5
+{
+    border-style: solid;
+    border-color: black;
+    width: 325px;
+    height: 450px;
+    text-align: center;
+    margin-left:680px;
+    margin-top: -556px;
+}
+/*</Roommates>*/
+
+/*Below is the styling of the make-shift scroller at the bottom of the roommates page*/
+/*<Page Numbers>*/
+.DummyData
+{
+    display: inline;
+}
+/*</Page Numbers>*/
+
+/*Below is the styling for the background section of the about us page*/
+/*<Background>*/
+#JavaSquadBackground
+{
+    text-align: center;
+    border-style: solid;
+}
+/*</Background>*/
+
+/*Below is the styling for digs listings*/
+/*<Listings>*/
+#Listing1
+{
+    text-align: center;
+    border-style: solid;
+    padding: 10px 0px 0px 10px;
+    float: left;
+    width: 980px;
+}
+
+.mySlides
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-button
+{
+    margin-bottom: 10px;
+}
+
+#Slideshow1
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.checked
+{
+    color: #C2B9B0;
+}
+
+.ListingAnchor
+{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/*Code from Codepen.io*/
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+.rate
+{
+    /*float: left;*/
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked)>input
+{
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label
+{
+    /*float: right;*/
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 70px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label::before
+{
+    content:'*';
+}
+
+.rate>input:checked~label
+{
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover, .rate:not(:checked)>label:hover~label
+{
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover, .rate>input:checked+label:hover~label, .rate>input:checked~label:hover, .rate>input:checked~label:hover~label, .rate>label:hover~input:checked~label
+{
+    color: #c59b08;
+}
+/*End of borrowed code*/
+/*</Listings>*/
+
+/*Below is the styling for the login/sign up sheet*/
+/*<SignUp*/
+#SignUpSheet
+{
+    border-style: solid;
+    padding: 10px 0px 10px 0px;
+}
+
+.input-container
+{
+    text-align: center;
+    display: grid;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: 235px;
+}
+
+.icon 
+{
+    padding: 10px;
+    background: #C2B9B0;
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+
+.input-field
+{
+    width: 81%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus
+{
+    border: 2px solid #C2B9B0;
+}
+
+.btn
+{
+    background-color: #C2B9B0;
+    color: black;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.btn:hover
+{
+    opacity: 1;
+}
+
+#BirthdayInformation
+{
+    display: inline;
+}
+
+#BirthdayElement
+{
+    width: 70px;
+    margin-right: 10px;
+}
+
+#BirthdayElement1
+{
+    width: 170px;
+    margin-right: 10px;
+}
+
+#BirthdayElement2
+{
+    width: 100px;
+}
+/*</SignUp>*/
+/*Below is the styling of the footer for all web pages*/
+/*<footer>*/
+.Special
+{
+    color: black;
+    font-weight: bold;
+}
+
+#ClosingRemark
+{
+    /*margin-top: 450px;*/
+    text-align: center;
+    border-style: solid;
+    border-color:black;
+}
+/*</footer>*/
